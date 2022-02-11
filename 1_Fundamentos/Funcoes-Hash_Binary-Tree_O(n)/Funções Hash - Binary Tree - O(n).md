@@ -1,11 +1,17 @@
 <center> <h1>Funções Hash, Binary Tree e O(n)</h1></center>
 <center>Valdeci S. B. S.</center>
 
-<center>01:45</center>
+<center>11/02/2022</center>
 <br>
-<center> 
 
-Todos os códigos podem ser encontrados neste [Colab](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing). </center>
+
+<center>
+
+Notas: <br>
+Para a correta visualização de funções em latex instale a extensão [Xdoc](https://github.com/nschloe/xhub) no chrome. <br>
+Respectivos códigos em [Python](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing)
+
+</center>
 ___
 
 <center> <h2>Funções Hash</h2></center>
@@ -202,11 +208,15 @@ Da [Wikipedia](https://www.wikiwand.com/pt/Grande-O), a notação O grande é um
 ---
 
 > Fontes:
-> [Data Masking vs. Data Encryption: How They're Different](https://www.informatica.com/blogs/data-masking-and-encryption-are-different.html)
-> [Quora: Why aren't cryptographic hash functions used in data structures?](https://www.quora.com/Why-arent-cryptographic-hash-functions-used-in-data-structures)
-> [An introduction to hashing functions for data mining. - Ben Postance](https://bpostance.github.io/posts/introduction-to-hashing/)
-> [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
-> [Applications of Binary Trees](https://www.baeldung.com/cs/applications-of-binary-trees)
+>> [Data Masking vs. Data Encryption: How They're Different](https://www.informatica.com/blogs/data-masking-and-encryption-are-different.html)
+>
+>> [Quora: Why aren't cryptographic hash functions used in data structures?](https://www.quora.com/Why-arent-cryptographic-hash-functions-used-in-data-structures)
+>
+>> [An introduction to hashing functions for data mining. - Ben Postance](https://bpostance.github.io/posts/introduction-to-hashing/)
+>
+>> [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
+>
+>> [Applications of Binary Trees](https://www.baeldung.com/cs/applications-of-binary-trees)
 > 
 
 

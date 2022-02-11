@@ -1,7 +1,16 @@
 <center> <h1>Matrizes & Algebra Linear</h1></center>
 <center>Valdeci S. B. S.</center>
-<center>31/12/2021</center>
-<center>19:40</center>
+<center>11/02/2022</center>
+
+
+<br>
+<center>
+
+Notas: <br>
+Para a correta visualização de funções em latex instale a extensão [Xdoc](https://github.com/nschloe/xhub) no chrome. <br>
+
+
+</center>
 
 ___
 
@@ -156,4 +165,3 @@ Complexidade das operações:
 - **Matriz inversa** $`\Large A^{-1} ou\ A^{-1}y: O(n^3)`$
 
 
-Respectivos códigos em [Python](https://x.com), [R](https://x.com) e [C](https://x.com).
