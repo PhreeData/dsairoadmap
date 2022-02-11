@@ -38,10 +38,6 @@ Vetores são arrays unidimensionais. Para representarmos usamos a notação
  $\Large x\in \mathbb{R}^n$ para representar que $\Large x$ é um vetor com $\Large n$ entradas, tambem podemos representar de forma explicita da seguinte forma:
 
 ```math
-e^{i\pi} + 1 = 0
-```
-
-$$
 \Large
 x= \begin{bmatrix}
 
@@ -50,7 +46,8 @@ x_{2}\\
 \vdots\\
 x_{3}
 \end{bmatrix}
-$$
+
+```
 
 Onde $\Large x_n$ representa o enésimo elemento do vetor. 
 
