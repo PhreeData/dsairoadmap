@@ -35,7 +35,7 @@ Vetores são arrays unidimensionais. Para representarmos usamos a notação
 \vec{e} = t - a
 \end{gathered}
 
- $\Large x\in \mathbb{R}^n$ para representar que $\Large x$ é um vetor com $\Large n$ entradas, tambem podemos representar de forma explicita da seguinte forma:
+ $\Large x\in \mathbb{R}^n$ para representar que $\Large x$ é um vetor com $`\Large n`$ entradas, tambem podemos representar de forma explicita da seguinte forma:
 
 ```math
 \Large
