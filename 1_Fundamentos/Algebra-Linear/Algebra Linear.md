@@ -61,7 +61,7 @@ x_{3}
 
 Onde $`\Large x_n`$ representa o enésimo elemento do vetor. 
 
-Matrizes são arrays 2D e usamos a notação $`\Large A \in \mathbb{R}^{m\times n}`$ para representar uma matriz de $`\Large m$ linhas e $\Large n`$ colunas, tambem podemos representar a matriz de forma explicita da seguinte forma:
+Matrizes são arrays 2D e usamos a notação $`\Large A \in \mathbb{R}^{m\times n}`$ para representar uma matriz de $`\Large m`$ linhas e $`\Large n`$ colunas, tambem podemos representar a matriz de forma explicita da seguinte forma:
 
 
 ```math
