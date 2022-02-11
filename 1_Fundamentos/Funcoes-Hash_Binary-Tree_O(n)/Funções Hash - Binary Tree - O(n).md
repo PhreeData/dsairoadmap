@@ -1,26 +1,11 @@
----
-title: Harsh Functions - Binary Tree - O(n)
-date: 01/01/2022
-anonymous: "false"
-author: 
-    - name: Valdeci S. B. S.
-      institution: IESB
-      orcid: https://orcid.org/0000-0001-5099-7177
-      city: Brasilia
-      country: Brasil
-      email: valdecidm@gmail.com
-output: pdf_document
-abstract: "blah blah"
-published: false
-bibliography: "Lorem ipsum"
-tags: [Medium, DSAI]
----
-
 <center> <h1>Funções Hash, Binary Tree e O(n)</h1></center>
 <center>Valdeci S. B. S.</center>
-<center>01/01/2022</center>
-<center>01:45</center>
 
+<center>01:45</center>
+<br>
+<center> 
+
+Todos os códigos poden ser encontrados neste [Colab](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing). </center>
 ___
 
 <center> <h2>Funções Hash</h2></center>
@@ -92,7 +77,7 @@ Etapa 2: A função hash é o índice da primeira linha (na ordem permutada) na 
 Verifique na memória principal se os pares candidatos realmente têm assinaturas semelhantes
 
 
-![[Funções Hash - Binary Tree - O(n)_27-01-2022 19.50.56.excalidraw.png]]
+![LSH-Fluxo](LHSfluxo.png)
 
 <br>
 
