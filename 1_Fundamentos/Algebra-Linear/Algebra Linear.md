@@ -1,21 +1,3 @@
----
-title: Algebra Linear
-date: 31/12/2021
-anonymous: "false"
-author: 
-    - name: Valdeci S. B. S.
-      institution: IESB
-      orcid: https://orcid.org/0000-0001-5099-7177
-      city: Brasilia
-      country: Brasil
-      email: valdecidm@gmail.com
-output: pdf_document
-abstract: "blah blah"
-published: false
-bibliography: "Lorem ipsum"
-tags: [Medium]
----
-
 <center> <h1>Matrizes & Algebra Linear</h1></center>
 <center>Valdeci S. B. S.</center>
 <center>31/12/2021</center>
@@ -45,7 +27,19 @@ Vetores e matrizes desempenham um papel central na ciencia de dados, tendo prova
 
 
 
-Vetores são arrays unidimensionais. Para representarmos usamos a notação $\Large x\in \mathbb{R}^n$ para representar que $\Large x$ é um vetor com $\Large n$ entradas, tambem podemos representar de forma explicita da seguinte forma:
+Vetores são arrays unidimensionais. Para representarmos usamos a notação
+
+\begin{gathered}
+\vec{a}^{m\! +\! 1} = \text{tansig} \left( \vec{W}^{m\! +\! 1}\! p + \vec{b}^{m\! +\! 1} \right) \quad \text{for}\; m = 0, 1, 2, ..., L-1\\
+\vec{a} = \vec{a}^{L}\\
+\vec{e} = t - a
+\end{gathered}
+
+ $\Large x\in \mathbb{R}^n$ para representar que $\Large x$ é um vetor com $\Large n$ entradas, tambem podemos representar de forma explicita da seguinte forma:
+
+```math
+e^{i\pi} + 1 = 0
+```
 
 $$
 \Large
