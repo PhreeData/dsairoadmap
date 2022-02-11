@@ -28,12 +28,13 @@ Vetores e matrizes desempenham um papel central na ciencia de dados, tendo prova
 
 
 Vetores são arrays unidimensionais. Para representarmos usamos a notação
-
+```math
 \begin{gathered}
 \vec{a}^{m\! +\! 1} = \text{tansig} \left( \vec{W}^{m\! +\! 1}\! p + \vec{b}^{m\! +\! 1} \right) \quad \text{for}\; m = 0, 1, 2, ..., L-1\\
 \vec{a} = \vec{a}^{L}\\
 \vec{e} = t - a
 \end{gathered}
+```
 
  $`\Large x\in \mathbb{R}^n`$ para representar que $`\Large x`$ é um vetor com $`\Large n`$ entradas, tambem podemos representar de forma explicita da seguinte forma:
 
@@ -49,18 +50,21 @@ x_{3}
 
 ```
 
-Onde $\Large x_n$ representa o enésimo elemento do vetor. 
+Onde $`\Large x_n`$ representa o enésimo elemento do vetor. 
 
-Matrizes são arrays 2D e usamos a notação $\Large A \in \mathbb{R}^{m\times n}$ para representar uma matriz de $\Large m$ linhas e $\Large n$ colunas, tambem podemos representar a matriz de forma explicita da seguinte forma:
+Matrizes são arrays 2D e usamos a notação $`\Large A \in \mathbb{R}^{m\times n}`$ para representar uma matriz de $`\Large m$ linhas e $\Large n`$ colunas, tambem podemos representar a matriz de forma explicita da seguinte forma:
 
-$$\Large A = 
+
+```math
+\Large A = 
 \begin{bmatrix}
     x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
     x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
     \vdots & \vdots & \vdots & \ddots & \vdots \\
     x_{m1} & x_{m2} & x_{m3} & \dots  & x_{mn}
 \end{bmatrix}
-$$
+
+```
 
 
  <br>
@@ -80,13 +84,14 @@ Uma matriz tambem pode representar dados tabulares, usaremos aqui a representaç
 A representação da tabela acima se dá da seguinte forma:
 
 
-$$\Large A \in \mathbb{R^{3\times 2}} = 
+```math
+\Large A \in \mathbb{R^{3\times 2}} = 
 \begin{bmatrix}
     85 & 95\\
     80 & 60\\
     100 & 100
 \end{bmatrix}
-$$
+```
 
 <br>
 <center> <h2>Bases da Algebra Linear</h2></center>
@@ -96,16 +101,19 @@ $$
 > - Benjamin Obi Tayo, Ph.D., DataScienceHub
 
 
-Considere as seguintes equações lineares com duas variáveis $\Large x_1$ e $\Large x_2$.
+Considere as seguintes equações lineares com duas variáveis $`\Large x_1`$ e $`\Large x_2`$.
 
-$$\Large 4x_1 -5x_2 = -13$$
-$$\Large -2x_1 +3x_2 = 9$$
+```math
+\Large 4x_1 -5x_2 = -13```
+```math
+\Large -2x_1 +3x_2 = 9```
 
-Eles podem ser escritas de forma compacta como na equação $\Large Ax=b$, onde:
+Eles podem ser escritas de forma compacta como na equação $`\Large Ax=b`$, onde:
 
 <br>
 
-$$\large A \in \mathbb{R^{2\times 2}} = 
+```math
+\large A \in \mathbb{R^{2\times 2}} = 
 \begin{bmatrix}
     4 & -5\\
     -2 & 3
@@ -120,7 +128,7 @@ x \in \mathbb{R^{2}} =
     x_1 \\
     x_2
 \end{bmatrix}.
-$$
+```
 
 <br>
 
@@ -139,10 +147,10 @@ As operações/funções básicas e matrizes especiais são:
 <br>
 Complexidade das operações: 
 
-- **Produto interno** $\Large x^ty: O(n)$
-- **Produto Matriz-Vetor** $\Large Ax: O(n^2)$
-- **Produto Matriz-Matriz** $\Large AB: O(n^3)$
-- **Matriz inversa** $\Large A^{-1} ou\ A^{-1}y: O(n^3)$
+- **Produto interno** $`\Large x^ty: O(n)`$
+- **Produto Matriz-Vetor** $`\Large Ax: O(n^2)`$
+- **Produto Matriz-Matriz** $`\Large AB: O(n^3)`$
+- **Matriz inversa** $`\Large A^{-1} ou\ A^{-1}y: O(n^3)`$
 
-[Aqui](https://x.com) pode-se consultar códigos em C, R e Python das principais funções.
 
+Respectivos códigos em [Python](https://x.com), [R](https://x.com) e [C](https://x.com).
