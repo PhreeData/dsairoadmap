@@ -1,7 +1,6 @@
 # Roadmap para Ciencia de Dados e Inteligencia Artificial
 <center>Valdeci S. B. S.</center>
 <center>11/02/2022</center>
-<center>17:42</center>
 
 ___
 
