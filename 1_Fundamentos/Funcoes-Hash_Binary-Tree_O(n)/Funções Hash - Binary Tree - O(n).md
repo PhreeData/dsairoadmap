@@ -5,7 +5,7 @@
 <br>
 <center> 
 
-Todos os códigos poden ser encontrados neste [Colab](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing). </center>
+Todos os códigos podem ser encontrados neste [Colab](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing). </center>
 ___
 
 <center> <h2>Funções Hash</h2></center>
