@@ -106,6 +106,7 @@ Considere as seguintes equações lineares com duas variáveis $`\Large x_1`$ e 
 ```math
 \Large 4x_1 -5x_2 = -13
 ```
+
 ```math
 \Large -2x_1 +3x_2 = 9
 ```
