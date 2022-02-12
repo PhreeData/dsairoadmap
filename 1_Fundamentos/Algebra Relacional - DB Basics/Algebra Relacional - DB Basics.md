@@ -1,3 +1,21 @@
+<center> <h1>Algebra Relacional</h1></center>
+<center>Valdeci S. B. S.</center>
+
+<center>12/02/2022</center>
+<br>
+
+
+<center>
+
+Notas: <br>
+Para a correta visualização de funções em latex instale a extensão [Xdoc](https://github.com/nschloe/xhub) no chrome. <br>
+[Aqui](https://colab.research.google.com/drive/18MjjX75mHj3N3hj0AtJDvMDx47sSfxUR?usp=sharing) voce encontra os respectivos códigos em Python.
+
+</center>
+
+___
+
+
 <center> <h2>Algebra Relacional</h2></center>
 
 
@@ -11,18 +29,24 @@ Esses conjuntos de métodos são chamados de Operadores de Álgebra Relacional.
 
 Esses operadores são divididos em dois tipos:
 
-Operadores Nativos
-Operadores teóricos de conjuntos
+- Operadores Nativos
+- Operadores teóricos de conjuntos
+
+<br>
 
 Antes de conhecer em detalhes sobre esses operadores, precisamos entender as quatro definições a seguir.
 
-Grau d(R): O número total de atributos/colunas presentes em uma relação/tabela é chamado de grau da relação e é denotado por d(R).
+Grau d(R): 
 
-Cardinalidade |R|: Total não se tuplas presentes em uma relação ou Linhas presentes em uma tabela, chama-se cardinalidade de uma relação e é denotada por |R|.
+O número total de atributos/colunas presentes em uma relação/tabela é chamado de grau da relação e é denotado por d(R).
 
-Domínio: O intervalo total de valores aceitos para um atributo da relação é chamado de domínio do atributo.
+Cardinalidade |R|: 
 
-Compatibilidade da União: Duas relações R e S são definidas para serem compatíveis entre si se e somente se:
+Total não se tuplas presentes em uma relação ou Linhas presentes em uma tabela, chama-se cardinalidade de uma relação e é denotada por |R|.
+
+**Domínio**: O intervalo total de valores aceitos para um atributo da relação é chamado de domínio do atributo.
+
+**Compatibilidade da União**: Duas relações R e S são definidas para serem compatíveis entre si se e somente se:
 
 Eles têm o mesmo grau d(R).
 Os domínios dos respectivos atributos também devem ser os mesmos.

@@ -9,7 +9,7 @@
 
 Notas: <br>
 Para a correta visualização de funções em latex instale a extensão [Xdoc](https://github.com/nschloe/xhub) no chrome. <br>
-Aqui voce encontra os respectivos códigos em [Python](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing)
+[Aqui](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing) voce encontra os respectivos códigos em Python.
 
 </center>
 
