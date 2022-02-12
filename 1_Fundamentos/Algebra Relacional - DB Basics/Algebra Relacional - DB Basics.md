@@ -1,28 +1,3 @@
----
-title: Algebra Relacional - DB Basics
-date: 10/02/2022
-anonymous: "false"
-author: 
-    - name: Valdeci S. B. S.
-      institution: IESB
-      orcid: https://orcid.org/0000-0001-5099-7177
-      city: Brasilia
-      country: Brasil
-      email: valdecidm@gmail.com
-output: pdf_document
-abstract: "blah blah"
-published: false
-bibliography: "Lorem ipsum"
-tags: [Medium, DSAI_Roadmap]
----
-
-<center> <h1>Algebra Relacional - DB Basics</h1></center>
-<center>Valdeci S. B. S.</center>
-<center>10/02/2022</center>
-<center>14:20</center>
-
-___
-
 <center> <h2>Algebra Relacional</h2></center>
 
 
