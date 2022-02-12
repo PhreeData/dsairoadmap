@@ -12,6 +12,7 @@ Para a correta visualização de funções em latex instale a extensão [Xdoc](h
 Aqui voce encontra os respectivos códigos em [Python](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing)
 
 </center>
+
 ___
 
 <center> <h2>Funções Hash</h2></center>
