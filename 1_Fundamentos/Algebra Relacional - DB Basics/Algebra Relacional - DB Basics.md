@@ -1,4 +1,4 @@
-<center> <h1>Algebra Relacional</h1></center>
+<center> <h1>Algebra Relacional - DB Basics</h1></center>
 <center>Valdeci S. B. S.</center>
 
 <center>12/02/2022</center>
@@ -12,6 +12,8 @@ Para a correta visualização de funções em latex instale a extensão [Xdoc](h
 [Aqui](https://colab.research.google.com/drive/18MjjX75mHj3N3hj0AtJDvMDx47sSfxUR?usp=sharing) voce encontra os respectivos códigos em Python.
 
 </center>
+
+<br>
 
 ___
 
@@ -78,10 +80,13 @@ d(R∩S) = d(R) = d(S) e 0 ≤ |R∩S| ≤ min(|R|,|S|)
 
 d(R-S) = d(R) = d(S) e 0 ≤ |R-S| ≤ (|R|) ou 0 ≤ |S-R| ≤ (|S|)
 
+<br>
 
 ___
 
+
 <center> <h2>DB Basics</h2></center>
+
 
 **Bancos de dados** ([português brasileiro](https://www.wikiwand.com/pt/Portugu%C3%AAs_brasileiro)) ou **bases de dados** ([português europeu](https://www.wikiwand.com/pt/Portugu%C3%AAs_europeu)) são conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. São coleções organizadas de dados que se relacionam de forma a criar algum sentido (informação) e dar mais eficiência durante uma pesquisa ou estudo científico. São de vital importância para empresas e, há mais de duas décadas, se tornaram a principal peça dos sistemas de informação e segurança. Normalmente existem por vários anos sem alterações em sua estrutura sistemática.
 
@@ -90,6 +95,7 @@ Sem mencionar que, para dar sentido aos dados e processá-los com eficiência, p
 Um banco de dados é definido como um conjunto estruturado de dados mantidos na memória de um computador ou na nuvem que pode ser acessado de várias maneiras.
 
 Como cientista de dados, você precisará projetar, criar e interagir com bancos de dados na maioria dos projetos em que trabalhará. Às vezes, você precisará criar tudo do zero, enquanto em outras, você só precisará saber como se comunicar com um banco de dados já existente.
+
 <br>
 <center> <h3>Bancos de dados relacionais</h3></center>
 
@@ -144,7 +150,3 @@ Os datastores NoSQL são dimensionados horizontalmente. O NoSQL é melhor no tra
 > Fontes:
 > [SQL vs. NoSQL Database: When to Use, How to Choose](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106)
 > [RELATIONAL ALGEBRA – DEGREE, CARDINALITY, DOMAIN, UNION COMPATIBILITY AND OPERATORS](https://ashutoshtripathi.com/gate/dbms/relational-model/relational-algebra-degree-cardinality-domain-union-compatibility-and-operators/)
-> [An introduction to hashing functions for data mining. - Ben Postance](https://bpostance.github.io/posts/introduction-to-hashing/)
-> [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
-> [Applications of Binary Trees](https://www.baeldung.com/cs/applications-of-binary-trees)
-> 
