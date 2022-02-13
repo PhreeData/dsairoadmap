@@ -83,7 +83,7 @@ To do:
 
 
 ## Contato
-Criado por [@valdecidm](https://www.flynerd.pl/) - Sinta-se livre para entrar em contato!
+Criado por [@valdecidm](https://www.linkedin.com/in/valdecidm/) - Sinta-se livre para entrar em contato!
 
 
 <!-- This project is open source and available under the [... License](). -->
