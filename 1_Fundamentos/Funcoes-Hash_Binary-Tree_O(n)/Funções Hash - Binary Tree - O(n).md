@@ -204,6 +204,148 @@ A codificação de um caractere é obtida percorrendo a árvore desde sua raiz a
 
 Da [Wikipedia](https://www.wikiwand.com/pt/Grande-O), a notação O grande é uma notação matemática que descreve o [comportamento limitante](https://www.wikiwand.com/en/Asymptotic_analysis) de uma função quando o argumento tende a um valor ou infinito específico. Na ciência da computação, a notação O grande é usada para classificar os algoritmos de acordo com a forma como seu tempo de execução ou requisitos de espaço crescem à medida que o tamanho da entrada aumenta. Em outras palavras, mede a complexidade de [tempo](https://www.wikiwand.com/pt/Complexidade_de_Tempo) ou [espaço](https://www.wikiwand.com/en/Space_complexity) de uma função. Isso significa que podemos saber com antecedência o desempenho de um algoritmo em uma situação específica.
 
+Existem duas maneiras de medir a complexidade de um algoritmo:
+
+A complexidade do espaço mede a quantidade exata de espaço que um algoritmo ocupará de acordo com o tamanho da entrada. É medido essencialmente pelo cálculo do espaço ocupado pelas variáveis em um algoritmo.
+A complexidade de tempo mede a quantidade exata de tempo que um algoritmo levará de acordo com o tamanho da entrada. Depende essencialmente de quantas etapas um algoritmo precisa executar antes de concluir a execução.
+Podemos calcular a complexidade de tempo de um algoritmo medindo quanto tempo levará para executar esse algoritmo. Ao calcular a complexidade de um algoritmo, levamos em consideração três cenários:
+
+Melhor caso — Quando o algoritmo será concluído no menor tempo possível. Esta é sempre a solução ideal
+Caso médio — Quando o algoritmo será concluído em um tempo médio
+Pior caso — Quando o algoritmo for concluído no menor tempo possível. Esta é sempre a solução pessimal.
+
+Ao medir a complexidade de um algoritmo usando a notação Big O, você deve sempre considerar o pior cenário. O “O” na notação Big O representa a ordem da função e o “n” representa o número de entradas.
+
+- **O(1)**
+
+A melhor complexidade de tempo para um algoritmo é o tempo constante, também conhecido como O(1). Algoritmos com tempo constante sempre levarão o mesmo tempo para serem executados. A execução deste algoritmo é independente do tamanho da entrada.
+
+Imagine que temos uma função que retorna o quadrado de um número:
+
+const returnSquare = (num) => num * num;
+
+A função returnSquare sempre levará o mesmo tempo para ser executada. É assim que funciona o tempo constante, um algoritmo que é executado na mesma quantidade de tempo, não importa o tamanho da entrada.
+
+Agora, imagine que temos uma função que recebe um array. Queremos sempre retornar o primeiro elemento do array, independentemente do tamanho do array.
+
+const getFirstItem = (arr) => arr[0];
+
+A função getFirstItem tem uma complexidade de tempo constante porque será executada na mesma quantidade de tempo, não importa o quanto a matriz aumente de tamanho.
+
+Sobre)
+A complexidade de tempo mais comum é a complexidade de tempo linear, também conhecida como O(n).
+
+Um algoritmo tem uma complexidade de tempo linear quando o tempo que leva para ser executado muda linearmente para o tamanho da entrada.
+
+Imagine que temos um array simples e queremos iterar em todo o array para encontrar um item específico:
+
+```
+const searchItem = (arr, item) => {
+  for (seja i = 0; i < arr.length; i++) {
+    if (arr[i] === item) {
+      devolver item;
+    }
+  }
+}
+```
+
+Na melhor das hipóteses, o item que estamos olhando é o primeiro item e não precisamos mapear todo o array. Na pior das hipóteses, o item pode ser o último e precisaremos iterar em todo o array.
+
+À medida que nossa matriz cresce, a complexidade de tempo desse algoritmo cresce linearmente. Toda vez que vemos um loop em nosso algoritmo, podemos supor que esse código pode ser um algoritmo de complexidade de tempo linear.
+
+<br>
+
+>Mais Exemplos: 
+>
+>- Acessar o Índice de Matriz/Array (int a = ARR[5];)
+>
+>- Inserindo um nó na lista encadeada
+>
+>- Empurrando e estourando na pilha
+>
+>- Inserção e Remoção de uma Fila
+>
+>- Buscar o pai ou filho esquerdo/direito de um nó em uma árvore armazenada em Array
+>
+>- Saltar para o elemento seguinte/anterior na lista duplamente ligada
+
+<br>
+
+- **O(log n)**
+
+Os logaritmos são operações matemáticas que determinam quantas vezes um determinado número precisa ser multiplicado por ele mesmo para chegar a outro número.
+
+Imagine que temos um array de 10 elementos e levamos um segundo para iterar por todo o array. À medida que a complexidade de tempo desse algoritmo aumenta, levaríamos dois segundos para iterar em todo o array de 20 elementos, três segundos em um array de 30 elementos e assim por diante.
+
+Um bom exemplo de algoritmo O(log n) é uma busca binária. Uma pesquisa binária encontra a posição de um elemento específico em um array ordenado dividindo o array pela metade em cada iteração:
+
+Matriz de pesquisa binária
+
+Em cada etapa, o algoritmo reduz o tamanho do problema pela metade. Tome o algoritmo de busca binária como exemplo: cada iteração divide o array até encontrar o item específico.
+
+<br>
+
+>Mais Exemplos: 
+>
+>Em poucas palavras, todos os algoritmos de força bruta que requerem linearidade são baseados na complexidade de tempo O(n).
+>
+>- Percorrendo uma matriz
+>
+>- Percorrendo uma lista encadeada
+>
+>- Pesquisa linear
+>
+>- Exclusão de um elemento específico em uma lista vinculada (não classificada)
+>
+>- Comparar duas strings
+>
+>- Verificar um Palíndromo
+>
+>- Contando/Bucket Sort
+
+
+- **O(n²)**
+
+Um algoritmo tem uma complexidade de tempo quadrática quando o tempo de execução é proporcional ao quadrado do tamanho da entrada.
+
+Imagine que temos um array e, para cada item, queremos fazer um loop novamente para comparar o elemento atual:
+
+const findItem = (arr, newArr) => {
+  for (seja i = 0; i < arr.length; i++) {
+    for (seja j = 0; j < newArr.length; j++) {
+      if (arr[i] === newArr[j]) {
+        console.log('olá!');
+      }
+    }
+  }
+}
+
+
+
+Este é um exemplo de um algoritmo de complexidade de tempo quadrático. Loops aninhados fazem com que a complexidade de tempo dobre. Toda vez que o tamanho de nossos arrays aumenta, a complexidade aumenta quadraticamente.
+
+<br>
+
+>Mais Exemplos: 
+>
+>- Bubble Sort
+>
+>- Insertion Sort
+>
+>- Selection Sort
+>
+>- Percorrendo uma matriz 2D simples
+
+<br>
+
+- **O(n!)** 
+
+Representa a pior complexidade de tempo que um algoritmo pode ter. Ao escrever código, você não quer escrever um pedaço de código que tenha uma complexidade de tempo de O(n!), também conhecida como complexidade de tempo fatorial.
+
+Um algoritmo com complexidade de tempo O(n!) atinge o infinito muito mais rápido do que você imagina. Em uma complexidade de tempo fatorial, estamos adicionando um loop aninhado para cada entrada que temos.
+
+É bom saber que isso é possível, mas você provavelmente não quer escrever código com essa complexidade de tempo.
+
 
 
 ---
