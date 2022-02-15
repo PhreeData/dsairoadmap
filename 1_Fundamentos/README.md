@@ -22,9 +22,9 @@ ___
 
 <br>
 
+> [Funções Hash - Binary Tree - O(n)](https://github.com/PhreeData/dsairoadmap/blob/master/1_Fundamentos/Funcoes-Hash_Binary-Tree_O(n)/Fun%C3%A7%C3%B5es%20Hash%20-%20Binary%20Tree%20-%20O(n).md)
 >>Código em Python [aqui](https://colab.research.google.com/drive/1OuI8QwfGDcx4usCbPrzKoHfpBuZLxvbw?usp=sharing)
 >
-> [Funções Hash - Binary Tree - O(n)](https://github.com/PhreeData/dsairoadmap/blob/master/1_Fundamentos/Funcoes-Hash_Binary-Tree_O(n)/Fun%C3%A7%C3%B5es%20Hash%20-%20Binary%20Tree%20-%20O(n).md)
 >
 >Tópicos:
 > - Funções Hash
