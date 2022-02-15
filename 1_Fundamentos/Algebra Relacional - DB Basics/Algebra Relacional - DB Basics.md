@@ -56,19 +56,27 @@ Os domínios dos respectivos atributos também devem ser os mesmos.
 
 Agora voltando aos Operadores:
 
-**Conjunto teórico
+Conjunto teórico
+
 União (∪)
+
 Interseção (∩)
+
 Subtração (-)
-Produto cartesiano (X)**
+
+Produto cartesiano (X)
 
 Nativo
 
-**Seleção (σ)
+Seleção (σ)
+
 Projeção (π)
+
 Renomear (ρ)
+
 Dividir (÷)
-Join**
+
+Join
 
 Nota: Para aplicar os operadores União, Interseção e Subtração entre quaisquer duas relações dadas, o pré-requisito é que essas relações sejam sempre compatíveis com União entre si.
 
